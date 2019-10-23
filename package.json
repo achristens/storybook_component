@@ -1,0 +1,19 @@
+"name": "@achristens/storybook_component",
+"module": "/dist/storybook_component",
+"description": "A custom button component for ReactJS projects",
+"version": "1.0.0",
+"author": {
+    "name": "Abby Christens",
+    "email": "achristens@gmail.com"
+},
+"homepage": "https://github.com/achristens/storybook_component#readme",
+"repository": {
+    "type": "git",
+    "url": "git@github.com:achristens/storybook_component.git"
+},
+"license": "MIT",
+"scripts": {
+    "build": "webpack --config webpack.config.js",
+    "docs": "start-storybook -p 9001 -c .storybook",
+    "docs:build": "build-storybook -c .storybook -p docs"
+}
