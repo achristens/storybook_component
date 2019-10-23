@@ -16,7 +16,7 @@
     "scripts": {
         "build": "webpack --config webpack.config.js",
         "docs": "start-storybook -p 9001 -c .storybook",
-        "docs:build": "build-storybook -c .storybook -p docs"
+        "docs:build": "build-storybook -c .storybook -o docs"
     },
     "devDependencies": {
         "@babel/core": "^7.6.4",
